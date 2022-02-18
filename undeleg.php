@@ -4,7 +4,6 @@
         define('ROOT_DIR', __DIR__);
 
         require_once(ROOT_DIR . "/config.inc");
-        require_once(ROOT_DIR . "/loader.inc");
 
         $undelegAddr = '0x00ed9f5497ffffaea2bd87b8bdfaea22c3d864f242f7a49fc2'; // Node01
         $undelegCount = 1;
