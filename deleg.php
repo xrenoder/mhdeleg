@@ -4,7 +4,6 @@
         require_once(ROOT_DIR . "/config.inc");
 
 //      /usr/local/bin/php /home/metahash/my_deleg/deleg.php
-        require_once(ROOT_DIR . "/loader.inc");
 
         Base::lock(LOCK_FILE);
         Base::setLogs(LOG_FILE, ERR_FILE);
