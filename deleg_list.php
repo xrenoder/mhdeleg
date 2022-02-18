@@ -6,7 +6,6 @@
         define('ROOT_DIR', __DIR__);
 
         require_once(ROOT_DIR . "/config.inc");
-        require_once(ROOT_DIR . "/loader.inc");
 
         $ecdsa = new Ecdsa();
         $crypto = new Crypto($ecdsa);
