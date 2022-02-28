@@ -22,5 +22,5 @@
         define('LOG_FILE', ROOT_DIR . "/work.log");
         define('ERR_FILE', ROOT_DIR . "/work.err");
 
-        require_once(PARENT_DIR . '/mhphplib/loader.inc");
+        require_once(PARENT_DIR . "/mhphplib/loader.inc");
         
